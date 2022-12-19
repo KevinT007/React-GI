@@ -14,21 +14,8 @@ export default class medium extends Component {
     };
   }
   render() {
-    // const info = [
-    //   { key: "Codename", value: this.state.person.codeName },
-    //   { key: "Name", value: this.state.person.name },
-    //   { key: "Number", value: this.state.person.number },
-    //   { key: "Date of Birth", value: this.state.person.DOB },
-    //   { key: "Height", value: this.state.person.height },
-    // ];
     return (
       <div>
-        {/* {info.map((item) => (
-          <p key={item.key}>
-            {item.key}: {item.value}
-          </p>
-        ))} */}
-
         <h1>Welcome Spartan</h1>
         <h2>Codename: {this.state.person.codeName}</h2>
         <h3>
